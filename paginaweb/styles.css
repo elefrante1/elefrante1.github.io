@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffa463, #fdd86e);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffefc1;
+    color: #fb6066;
+    padding: 8px;
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+header img {
+    width: 150px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-right: 20px;
+    transition: color 0.2s linear;
+}
+nav li :hover{
+
+    color: #fb6066;
+}
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.imagen img {
+    position: absolute;
+    top: 17%;
+    right: 0;
+    max-width: 36%;
+    height: auto;
+    width: auto;
+}
+.biembenida h1 {
+    font-size: 5vw; 
+    font-family: 'Arial Black', sans-serif; 
+    text-align: left ;
+    margin-top: 0%;
+    margin: 3%;
+    ;
+}
+.confiansa{
+    margin: 3%;
+    font-size: 200%;
+    }
+.descripcion { 
+    font-size: 160%;
+    text-align: left;
+    margin-top: 1px;
+    margin: 4%;
+ width: 50%;
+}
+a.ver-mas {
+    position: relative;  
+    top: -70px;         
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid #007BFF;
+    transition: background-color 0.3s ease;
+    margin-left: 22%;
+}
+
+a.ver-mas:hover {
+    background-color: #fb6066;
+}
+li img {
+        width: 100%; 
+        max-width: 14px; 
+        height: auto; 
+    }
+    .colums {display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 16px;}
+    article {
+        background: var(--color-light); 
+        padding: 28px 24px; 
+        text-align: center; 
+        border-radius: 6px;
+        hyphens: auto;
+        border: solid 1px #d2d2d2;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    button {
+        background: var(--color-primary); color: var(--color-light); 
+        padding: 0 24px; 
+        border-radius: 50px; 
+        cursor: pointer; 
+        transition: all .3s; border: none;
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, .2); 
+        font: 500 14px "Roboto"/20px; 
+        letter-spacing: .1px; height: 40px;
+        user-select: none; 
+    }
+    button:hover {background: #723708; color: var(--color-light)}
+    button:active {box-shadow: 0 0 0 9px rgba(226, 18, 18, 0.04), 0 0 0 9px rgba(0, 0, 0, .04), 0 0 0 9px rgba(0, 0, 0, .04), 0 0 0 9px rgba(0, 0, 0, .04);}
+    .btn-blanco {background: var(--color-light); color: var(--color-dark)} .btn-blanco:hover {background: #1c1927; color: var(--color-light)}
+    
